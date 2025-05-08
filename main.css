@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+body{
+    background-color: #252836;
+}
+.site-header {
+    padding: 24px 0;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-link-div {
+    display: flex;
+    flex-direction: column;
+}
+.header-logo {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+    color: white;
+    margin-bottom: 4px;
+}
+.header-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #889898;
+}
+.header-form{
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #393C49;
+    width: 250px;
+    border-radius: 8px;
+}
+.header-input {
+    color: #ABBBC2;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 100%;
+    background-color: #393C49;
+    width: 164px;
+    border: none;
+}
+
+
+
+
+
+
+.hero-section{
+    padding: 24px 0 24px;
+}
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.btn {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #393C49;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+}
+.card {
+    background-color: #1c1c2e;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+.hero-list{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.dish-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.hero-middle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.hero-middle-h3{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+    color: white;
+}
+.hero-form {
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: #1F1D2B;
+    border-radius: 8px;
+}
+.hero-input {
+    color: white;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 100%;
+    width: 100px;
+    background-color: #1F1D2B;
+    border: none;
+}
+.dish-info h2 {
+    color: white;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 130%;
+}
+.dish-info span{
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+}
+.price {
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+.availability {
+    color: #ABBBC2;
+    font-size: 16px;
+    margin-top: 5px;
+}
