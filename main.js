@@ -93,3 +93,22 @@ btns.forEach(btn =>{
         }
     })
 })
+
+const searchInput = document.getElementById('searchInput')
+console.log(searchInput);
+
+
+function searchFilter(){
+    const searchText = searchInput.value.toLowerCase()
+    console.log(searchText);
+    
+    const searched = foodArr.filter(food=>{
+    const matched = food.name.toLowerCase().includes(searchText)
+    return matched;
+    })
+
+    createFoods(searched)
+
+}
+
+searchInput.addEventListener("input",searchFilter)
